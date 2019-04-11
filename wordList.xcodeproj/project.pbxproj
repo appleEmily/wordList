@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A10F7E56225F8B1B008A6EC1 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F7E55225F8B1B008A6EC1 /* QuestionViewController.swift */; };
+		A10F7E58225F8B3F008A6EC1 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F7E57225F8B3F008A6EC1 /* FinishViewController.swift */; };
+		A10F7E5C225F8B69008A6EC1 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F7E5B225F8B69008A6EC1 /* AddViewController.swift */; };
+		A10F7E62225F92AD008A6EC1 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F7E61225F92AD008A6EC1 /* ListTableViewController.swift */; };
+		A10F7E65225F9DA7008A6EC1 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10F7E63225F9DA7008A6EC1 /* UICollectionViewCell.swift */; };
+		A10F7E66225F9DA7008A6EC1 /* UICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A10F7E64225F9DA7008A6EC1 /* UICollectionViewCell.xib */; };
 		A139C44F225F6F2500817793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139C44E225F6F2500817793 /* AppDelegate.swift */; };
 		A139C451225F6F2500817793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139C450225F6F2500817793 /* ViewController.swift */; };
 		A139C454225F6F2500817793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A139C452225F6F2500817793 /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		A139C459225F6F2800817793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A139C457225F6F2800817793 /* LaunchScreen.storyboard */; };
 		A139C464225F6F2900817793 /* wordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139C463225F6F2900817793 /* wordListTests.swift */; };
 		A139C46F225F6F2900817793 /* wordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139C46E225F6F2900817793 /* wordListUITests.swift */; };
+		A139C480225F83F600817793 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = A139C47D225F83F600817793 /* word_blank.png */; };
+		A139C481225F83F600817793 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = A139C47E225F83F600817793 /* fin.png */; };
+		A139C482225F83F600817793 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A139C47F225F83F600817793 /* title_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A10F7E55225F8B1B008A6EC1 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		A10F7E57225F8B3F008A6EC1 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		A10F7E5B225F8B69008A6EC1 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A10F7E61225F92AD008A6EC1 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		A10F7E63225F9DA7008A6EC1 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		A10F7E64225F9DA7008A6EC1 /* UICollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICollectionViewCell.xib; sourceTree = "<group>"; };
 		A139C44B225F6F2500817793 /* wordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A139C44E225F6F2500817793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A139C450225F6F2500817793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		A139C46A225F6F2900817793 /* wordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A139C46E225F6F2900817793 /* wordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordListUITests.swift; sourceTree = "<group>"; };
 		A139C470225F6F2900817793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A139C47D225F83F600817793 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		A139C47E225F83F600817793 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		A139C47F225F83F600817793 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +117,17 @@
 			children = (
 				A139C44E225F6F2500817793 /* AppDelegate.swift */,
 				A139C450225F6F2500817793 /* ViewController.swift */,
+				A10F7E55225F8B1B008A6EC1 /* QuestionViewController.swift */,
+				A10F7E57225F8B3F008A6EC1 /* FinishViewController.swift */,
+				A10F7E5B225F8B69008A6EC1 /* AddViewController.swift */,
+				A10F7E61225F92AD008A6EC1 /* ListTableViewController.swift */,
+				A10F7E63225F9DA7008A6EC1 /* UICollectionViewCell.swift */,
+				A10F7E64225F9DA7008A6EC1 /* UICollectionViewCell.xib */,
 				A139C452225F6F2500817793 /* Main.storyboard */,
 				A139C455225F6F2800817793 /* Assets.xcassets */,
 				A139C457225F6F2800817793 /* LaunchScreen.storyboard */,
 				A139C45A225F6F2800817793 /* Info.plist */,
+				A139C47C225F83F600817793 /* WordList素材 */,
 			);
 			path = wordList;
 			sourceTree = "<group>";
@@ -123,6 +148,16 @@
 				A139C470225F6F2900817793 /* Info.plist */,
 			);
 			path = wordListUITests;
+			sourceTree = "<group>";
+		};
+		A139C47C225F83F600817793 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				A139C47D225F83F600817793 /* word_blank.png */,
+				A139C47E225F83F600817793 /* fin.png */,
+				A139C47F225F83F600817793 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A139C480225F83F600817793 /* word_blank.png in Resources */,
+				A10F7E66225F9DA7008A6EC1 /* UICollectionViewCell.xib in Resources */,
+				A139C482225F83F600817793 /* title_logo.png in Resources */,
 				A139C459225F6F2800817793 /* LaunchScreen.storyboard in Resources */,
 				A139C456225F6F2800817793 /* Assets.xcassets in Resources */,
+				A139C481225F83F600817793 /* fin.png in Resources */,
 				A139C454225F6F2500817793 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +296,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A139C451225F6F2500817793 /* ViewController.swift in Sources */,
+				A10F7E58225F8B3F008A6EC1 /* FinishViewController.swift in Sources */,
+				A10F7E5C225F8B69008A6EC1 /* AddViewController.swift in Sources */,
+				A10F7E65225F9DA7008A6EC1 /* UICollectionViewCell.swift in Sources */,
+				A10F7E62225F92AD008A6EC1 /* ListTableViewController.swift in Sources */,
 				A139C44F225F6F2500817793 /* AppDelegate.swift in Sources */,
+				A10F7E56225F8B1B008A6EC1 /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
 				INFOPLIST_FILE = wordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
 				INFOPLIST_FILE = wordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
